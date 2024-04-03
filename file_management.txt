@@ -1,0 +1,9 @@
+rm -rf REPO_DIR
+git clone https://github.com/Efrain1013/REPO_NAME.git
+---- do the work -------
+git add THINGS
+git commit -m "MESSAGE"
+git push
+git update-index --skip-worktree FILE_NAME.txt         (maybe folder)
+rm FILE_NAME.txt                                       (-r for recursive -f for force, use -rf for folders)
+git status                                             (make sure that it didn't affect the repo)
